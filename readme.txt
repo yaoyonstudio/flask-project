@@ -11,6 +11,11 @@ pip install Flask
 pip install flask-migrate flask-script
 pip install flask-sqlalchemy flask-mysqldb
 
+迁移
+python db.py db init
+python db.py db migrate
+python db.py db upgrade
+
 
 运行
 python run.py
